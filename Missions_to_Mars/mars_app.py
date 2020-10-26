@@ -19,7 +19,6 @@ def home():
     # Return template and data
     return render_template("index.html", mars=destination_data)
 
-
 # Route that will trigger the scrape function
 @app.route("/scrape")
 def scrape():

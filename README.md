@@ -11,5 +11,7 @@ scrape_mars.py
 mars_app.py
 The index.html file is in the templates folder
 
+Note - Word doc included for screen shots
+
 
 
