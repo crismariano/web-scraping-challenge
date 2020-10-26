@@ -25,7 +25,7 @@ def scrape_info():
 
     # Get Mars Latest News and Description
     title = soup.find_all('div', class_='content_title')[0].text
-    paragraph = soup.find_all('div', class_='rollover_description_inner')[0].text
+    paragraph = soup.find_all('div', class_='article_teaser_body')[0].text
 
 
     # Featured Image
